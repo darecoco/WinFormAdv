@@ -115,6 +115,7 @@
             this.새로만들기ToolStripMenuItem.Name = "새로만들기ToolStripMenuItem";
             this.새로만들기ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.새로만들기ToolStripMenuItem.Text = "새로만들기";
+            this.새로만들기ToolStripMenuItem.Click += new System.EventHandler(this.새로만들기ToolStripMenuItem_Click);
             // 
             // 새창ToolStripMenuItem
             // 
@@ -401,6 +402,7 @@
             // 
             // textBox1
             // 
+            this.textBox1.Font = new System.Drawing.Font("휴먼편지체", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textBox1.Location = new System.Drawing.Point(0, 27);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
